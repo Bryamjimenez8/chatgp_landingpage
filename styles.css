@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: rgb(138, 9, 37);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+.hero-content img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+
+.cta-btn {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+}
+
+.cta-btn:hover {
+    background-color: #fa5252;
+}
+
+.productos, .beneficios, .testimonios, .contacto {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.productos-grid, .beneficios-grid, .testimonios-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.producto, .beneficio, .testimonio {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.producto img, .beneficio img, .testimonio img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border: #333;
+    border-radius: 10 px;
+}
+.contacto form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contacto input, .contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
